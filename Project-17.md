@@ -90,3 +90,47 @@
 ![creating-listener-rule](./Images/creating-listener-rule.png)
 ![listener-rule-created](./Images/listener-rule-created.png)
 
+### Creating Launch Template and Auto scaling Group for Bastion, Nginx, wordpress and tooling
+
+### Bastion
+
+![Creating-Launch-Template-for-bastion-terraform](./Images/creating-Launch-Template-for-bastion-terraform.png)
+![terraform-bastion-autoscaling-group-created](./Images/terraform-bastion-autoscaling-group-created.png)
+
+### Nginx
+
+![Creating-Launch-Template-for-bastion-terraform](./Images/terraform-launch-template-nginx-created.png)
+![terraform-bastion-autoscaling-group-created](./Images/terraform-autoscaling-group-nginx-created.png)
+
+### wordpress
+
+![terraform-launch-template-wordpress-created](./Images/terraform-launch-template-wordpress-created.png)
+![terraform-bastion-autoscaling-group-created](./Images/terraform-autoscaling-group-wordpress-created.png)
+
+### tooling
+
+![terraform-launch-template-tooling-created](./Images/terraform-launch-template-tooling-created.png)
+![terraform-autoscaling-group-tooling-created](./Images/terraform-autoscaling-group-tooling-created.png)
+
+### Creating Our EFS and Mounting our Webservers on EFS
+
+### Creating EFS Storage for ours Webservers
+
+![efs-created](./Images/efs-created.png)
+![efs-live-on-console](./Images/efs-live-on-console.png)
+
+### Mounting our EFS in the Subnet where our resources resides (webservers) for easy accessibility.
+
+![Mounting-our-efs-in-the-subnet-of-our-rersources](./Images/Mounting-our-efs-in-the-subnet-of-our-rersources.png)
+
+### Creating efs Access point for our webservers to connect to the file storage
+
+![efs-accesspoint-for-our-webservers-created](./Images/efs-accesspoint-for-our-webservers-created.png)
+
+### Creating RDS for our Webservers which involves creating a Subnet Group and an RDS Instance
+
+![DB-subnet-group-created](./Images/DB-subnet-group-created.png)
+
+### RDS Instance Created
+![RDS-instance-created](./Images/RDS-instance-created.png)
+![RDS-instance-created](./Images/DB-instance-live-on-console.png)
